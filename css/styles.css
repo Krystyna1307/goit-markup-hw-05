@@ -116,10 +116,9 @@ position: relative;
 
 .tel,
 .nav-link  {
-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-/* transition-property: color;
+transition-property: color;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  */
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .nav-list .item:not(:last-child) {
@@ -146,7 +145,7 @@ left: 0;
 bottom: -1px;
 
 transform: scaleX(0);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 width: 100%;
 height: 4px;
@@ -239,6 +238,11 @@ margin: auto;
 
 color: var(--page-background-color);
 background: var(--accent-color);
+
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 .hero-button:hover,
