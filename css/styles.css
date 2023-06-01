@@ -129,7 +129,8 @@ margin-right: 40px;
 .nav-list .link:focus,
 .address .link:hover,
 .address .link:focus,
-.nav-link.current {
+.nav-link.current,
+.item {
 color: var(--nav-color);   
 }
 
