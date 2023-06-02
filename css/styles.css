@@ -541,6 +541,7 @@ position: relative;
 
 .overlay {
 position: absolute;
+overflow: hidden;
 
 background-color: var(--accent-color);
 color: var(--svg-fill);
