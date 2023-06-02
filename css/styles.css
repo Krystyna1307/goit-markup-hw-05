@@ -560,6 +560,7 @@ padding: 40px 32px;
 height: 100%;
 width: 100%;
 }
-.conteiner-list-page:hover .overlay {
+.portfolio-page-img:hover .overlay,
+.portfolio-page-img:focus .overlay {
 transform: translateY(0);
 }
